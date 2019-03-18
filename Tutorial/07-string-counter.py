@@ -13,3 +13,14 @@ def lst_len(lst):
     return output
 
 print(lst_len(lst))
+
+
+def list_len(lst):
+    """
+    Take a list of strings and returns a list of integer where
+    the values are the lenght of each string
+    """
+    res_lst = []
+    for s in lst:
+        res_lst += [len(s)]
+    return res_lst
