@@ -14,9 +14,10 @@ def lst_len(lst):
 
 print(lst_len(lst))
 
-
+# Teacher
 def list_len(lst):
     """
+
     Take a list of strings and returns a list of integer where
     the values are the lenght of each string
     """
@@ -24,3 +25,4 @@ def list_len(lst):
     for s in lst:
         res_lst += [len(s)]
     return res_lst
+
